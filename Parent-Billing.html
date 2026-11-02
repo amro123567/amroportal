@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Billing · Amro Academy</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="assets/amro.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0369A1}a:hover{color:#075985}
+</style>
+</head>
+<body>
+<div class="amro">
+<div class="app">
+<aside class="side">
+<div class="brandmark"><img class="logo" src="assets/logo-icon.png" alt="Amro Academy logo"><div><div class="brandname">Amro Academy</div><div class="brandsub">Parent portal</div></div></div>
+<a class="nav" href="Parent-Home.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>Home &amp; progress</a>
+<a class="nav" href="Parent-Free-Time.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Free time</a>
+<a class="nav" href="Parent-Schedule.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Schedule</a>
+<a class="nav active" href="Parent-Billing.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="3"></circle></svg>Billing</a>
+<a class="nav" href="Parent-Reports.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"></path><path d="M14 2v6h6M9 13h8M9 17h6"></path></svg>Monthly reports</a>
+<a class="nav" href="Parent-Messages.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>Messages</a>
+<div class="sidefoot"><div class="avatar">RH</div><div><div style="font-weight: 700">Rima Haddad</div><a href="index.html" style="color: #BAE6FD; font-size: 12px">Switch portal</a></div></div>
+</aside>
+<main class="main">
+<div class="topbar">
+<div class="title"><h1>Billing</h1><p>Haddad family · all amounts in USD</p></div>
+<div class="actions"><span class="chip demo">Demo data</span><a class="btn" href="#">Download statement</a></div>
+</div>
+
+<div class="grid g4">
+<div class="card"><div class="label">Balance</div><div class="big" style="color: #065F46">$0.00</div><div class="small muted">Nothing due today</div></div>
+<div class="card"><div class="label">Math package</div><div class="big">5 of 12</div><div class="bar" style="margin-top: 4px"><span style="width: 42%"></span></div><div class="small muted">Expires Feb 28, 2027</div></div>
+<div class="card"><div class="label">R&amp;W · per session</div><div class="big">$40</div><div class="small muted">Charged after each session</div></div>
+<div class="card"><div class="label">SAT Learning Library</div><div class="big">Active</div><div class="small muted">Renews Sep 14, 2027</div></div>
+</div>
+
+<div class="grid g21">
+<div class="card">
+<div class="cardhead"><h2>Charges and payments</h2><div style="display: flex; gap: 6px"><button class="btn sm primary" type="button">All</button><button class="btn sm" type="button">Charges</button><button class="btn sm" type="button">Payments</button></div></div>
+<div class="tablewrap">
+<table class="tbl">
+<thead><tr><th>Date</th><th>Description</th><th>Type</th><th class="num">Amount</th><th></th></tr></thead>
+<tbody>
+<tr><td>Nov 2</td><td>SAT Math with Mohamad · 90 min<div class="small muted">From package · <a href="Parent-Home.html">read summary</a></div></td><td><span class="chip">Package use</span></td><td class="num">1 session</td><td></td></tr>
+<tr><td>Nov 2</td><td>Payment · Whish WH-88213</td><td><span class="chip green">Payment</span></td><td class="num" style="color: #065F46">−$540.00</td><td><a class="btn sm" href="#">Receipt</a></td></tr>
+<tr><td>Nov 2</td><td>Math package · 12 sessions</td><td><span class="chip blue">Charge</span></td><td class="num">$540.00</td><td><a class="btn sm" href="#">Invoice</a></td></tr>
+<tr><td>Oct 30</td><td>SAT R&amp;W with Rana · 60 min<div class="small muted"><a href="Parent-Home.html">read summary</a></div></td><td><span class="chip blue">Charge</span></td><td class="num">$40.00</td><td></td></tr>
+<tr><td>Oct 30</td><td>Payment · Cash R-0139</td><td><span class="chip green">Payment</span></td><td class="num" style="color: #065F46">−$40.00</td><td><a class="btn sm" href="#">Receipt</a></td></tr>
+<tr><td>Oct 23</td><td>Sibling discount · October</td><td><span class="chip violet">Credit</span></td><td class="num" style="color: #065F46">−$20.00</td><td></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px; min-width: 0">
+<div class="card">
+<div class="cardhead"><h2>How to pay</h2></div>
+<div class="list">
+<div class="li"><div class="grow"><div class="t">Whish Money</div><div class="small muted">To [ACADEMY WHISH NUMBER]</div></div></div>
+<div class="li"><div class="grow"><div class="t">OMT</div><div class="small muted">Name: [ACCOUNT NAME]</div></div></div>
+<div class="li"><div class="grow"><div class="t">Bank transfer</div><div class="small muted">[BANK] · IBAN [IBAN]</div></div></div>
+<div class="li"><div class="grow"><div class="t">Cash</div><div class="small muted">At the center or to your tutor, with a receipt</div></div></div>
+</div>
+<div class="note small">Every payment is confirmed by email with a PDF receipt.</div>
+</div>
+<div class="card">
+<div class="cardhead"><h2>Renew package</h2></div>
+<div class="list">
+<div class="li"><div class="grow"><div class="t">8 sessions</div><div class="small muted">[PRICE]</div></div><a class="btn sm" href="#">Request</a></div>
+<div class="li"><div class="grow"><div class="t">12 sessions</div><div class="small muted">[PRICE] · most chosen</div></div><a class="btn sm primary" href="#">Request</a></div>
+</div>
+</div>
+<div class="card">
+<div class="cardhead"><h2>Policies</h2></div>
+<div class="small muted">Cancel or reschedule at least 24 hours before a session. Late cancellations are charged. <a href="#">Read the full policy</a></div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+<script src="assets/demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Students and families · Amro Academy</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="assets/amro.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0369A1}a:hover{color:#075985}
+</style>
+</head>
+<body>
+<div class="amro">
+<div class="app">
+<aside class="side">
+<div class="brandmark"><img class="logo" src="assets/logo-icon.png" alt="Amro Academy logo"><div><div class="brandname">Amro Academy</div><div class="brandsub">Admin</div></div></div>
+<a class="nav" href="Admin-Dashboard.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>Dashboard</a>
+<a class="nav active" href="Admin-Students.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"></circle><path d="M2 21c0-4 3-6 7-6s7 2 7 6"></path><path d="M16 4a4 4 0 0 1 0 8"></path></svg>Students &amp; families</a>
+<a class="nav" href="Tutor-Calendar.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Calendar</a>
+<a class="nav" href="Admin-Finance.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="3"></circle></svg>Finance</a>
+<a class="nav" href="Admin-Automations.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>Automations</a>
+<a class="nav" href="Admin-Practice.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"></path><path d="M14 2v6h6M9 13h8M9 17h6"></path></svg>Practice tests</a>
+<a class="nav" href="Student-Lesson.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2z"></path><path d="M22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"></path></svg>Learning library</a>
+<div class="navlabel">Grow</div>
+<a class="nav" href="Admin-Reports.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path></svg>Reports</a>
+<a class="nav" href="Admin-Leads.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18l-7 9v6l-4 2v-8z"></path></svg>Leads</a>
+<a class="nav" href="Admin-Settings.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12"></path><circle cx="16" cy="6" r="2"></circle><circle cx="10" cy="12" r="2"></circle><circle cx="18" cy="18" r="2"></circle></svg>Settings</a>
+<div class="sidefoot"><div class="avatar">MA</div><div><div style="font-weight: 700">Mohamad Amro</div><a href="index.html" style="color: #BAE6FD; font-size: 12px">Switch portal</a></div></div>
+</aside>
+<main class="main">
+<div class="topbar">
+<div class="title"><h1>Students &amp; families</h1><p>38 active · 4 trial · 2 paused · 61 parents · 4 tutors</p></div>
+<div class="actions">
+<span class="chip demo">Demo data</span>
+<a class="btn" href="#">Import CSV</a>
+<a class="btn primary" href="#">Add student</a>
+</div>
+</div>
+
+<div class="tabs">
+<a class="tab on" href="#">Students</a>
+<a class="tab" href="#">Parents</a>
+<a class="tab" href="#">Tutors</a>
+<a class="tab" href="#">Enrollments</a>
+</div>
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; align-items: center">
+<label class="search" style="flex: 1 1 280px"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg><input type="search" placeholder="Search by student, parent or school" aria-label="Search students"></label>
+<button class="btn sm" type="button">Status: Active</button>
+<button class="btn sm" type="button">Tutor: All</button>
+<button class="btn sm" type="button">Subject: All</button>
+<button class="btn sm" type="button">Mode: All</button>
+<button class="btn sm" type="button">Test date: Any</button>
+<button class="btn sm" type="button">Behind target</button>
+</div>
+
+<div class="card">
+<div class="tablewrap">
+<table class="tbl" style="min-width: 1080px">
+<thead><tr><th>Student</th><th>Parent</th><th>Subjects · Tutor</th><th>Target</th><th>Latest</th><th>On track</th><th>SAT date</th><th>Package</th><th class="num">Balance</th></tr></thead>
+<tbody>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">LH</div><div><a href="Admin-Student-Profile.html" style="font-weight: 700">Lara Haddad</a><div class="small muted">Grade 11 · IC</div></div></div></td><td>Rima Haddad</td><td>Math · M. Amro<br><span class="small muted">R&amp;W · R. Sleiman</span></td><td>1450</td><td>1330</td><td><span class="chip green">On track</span></td><td>Dec 2026</td><td>5 of 12 left</td><td class="num">$0</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">KN</div><div><div style="font-weight: 700">Karim Nassar</div><div class="small muted">Grade 12 · ACS</div></div></div></td><td>Fadi Nassar</td><td>R&amp;W · R. Sleiman</td><td>1400</td><td>1290</td><td><span class="chip green">On track</span></td><td>Dec 2026</td><td>Per session</td><td class="num">$120</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">MK</div><div><div style="font-weight: 700">Maya Khoury</div><div class="small muted">Grade 11 · Online, Dubai</div></div></div></td><td>Joelle Khoury</td><td>Math · H. Karam</td><td>1500</td><td>1410</td><td><span class="chip green">On track</span></td><td>Mar 2027</td><td>2 of 8 left</td><td class="num">$0</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">OS</div><div><div style="font-weight: 700">Omar Saleh</div><div class="small muted">Grade 12 · LWIS</div></div></div></td><td>Hiba Saleh</td><td>Math · M. Amro<br><span class="small muted">R&amp;W · R. Sleiman</span></td><td>1350</td><td>1150</td><td><span class="chip red">Behind</span></td><td>Dec 2026</td><td>Per session</td><td class="num" style="color: #991B1B; font-weight: 700">$420</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">NI</div><div><div style="font-weight: 700">Nour Itani</div><div class="small muted">Grade 11 · Jesuit</div></div></div></td><td>Samer Itani</td><td>Math · M. Amro</td><td>1400</td><td>1260</td><td><span class="chip amber">Watch</span></td><td>Mar 2027</td><td>9 of 12 left</td><td class="num">$0</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">JM</div><div><div style="font-weight: 700">Jad Mansour</div><div class="small muted">Grade 10 · Online, Paris</div></div></div></td><td>Carla Mansour</td><td>Math · D. Saab</td><td>1300</td><td>1080</td><td><span class="chip green">On track</span></td><td>May 2027</td><td>1 of 8 left</td><td class="num">$0</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">YD</div><div><div style="font-weight: 700">Yara Daher</div><div class="small muted">Grade 12 · BHS</div></div></div></td><td>Ziad Daher</td><td>R&amp;W · R. Sleiman</td><td>1450</td><td>1240</td><td><span class="chip red">Behind</span></td><td>Dec 2026</td><td>Per session</td><td class="num" style="color: #991B1B; font-weight: 700">$360</td></tr>
+<tr><td><div style="display: flex; gap: 10px; align-items: center"><div class="avatar">SA</div><div><div style="font-weight: 700">Sara Aoun</div><div class="small muted">Grade 11 · Trial</div></div></div></td><td>Maya Aoun</td><td>Math · H. Karam</td><td>1350</td><td>1110</td><td><span class="chip">Trial</span></td><td>Jun 2027</td><td>—</td><td class="num">$0</td></tr>
+</tbody>
+</table>
+</div>
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px" class="small muted"><span>Showing 8 of 38</span><div style="display: flex; gap: 8px"><button class="btn sm" type="button">Previous</button><button class="btn sm" type="button">Next</button></div></div>
+</div>
+</main>
+</div>
+</div>
+<script src="assets/demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Homework · Amro Academy</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="assets/amro.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0369A1}a:hover{color:#075985}
+</style>
+</head>
+<body>
+<div class="amro">
+<div class="app">
+<aside class="side">
+<div class="brandmark"><img class="logo" src="assets/logo-icon.png" alt="Amro Academy logo"><div><div class="brandname">Amro Academy</div><div class="brandsub">Student portal</div></div></div>
+<a class="nav" href="Student-Home.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>Home</a>
+<a class="nav" href="Student-Test.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"></path><path d="M14 2v6h6M9 13h8M9 17h6"></path></svg>Practice tests <span class="chip amber" style="margin-left: auto">1</span></a>
+<a class="nav" href="Student-Lesson.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5h7a3 3 0 0 1 3 3v12a2 2 0 0 0-2-2H2z"></path><path d="M22 5h-7a3 3 0 0 0-3 3v12a2 2 0 0 1 2-2h8z"></path></svg>SAT course</a>
+<a class="nav active" href="Student-Homework.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L20 8l-4-4L4 16z"></path></svg>Homework</a>
+<a class="nav" href="Student-Sessions.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>My sessions</a>
+<a class="nav" href="Student-Scores.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"></path></svg>My scores</a>
+<div class="sidefoot"><div class="avatar">LH</div><div><div style="font-weight: 700">Lara Haddad</div><a href="index.html" style="color: #E0F2FE; font-size: 12px">Switch portal</a></div></div>
+</aside>
+<main class="main">
+<div class="topbar">
+<div class="title"><h1>Homework</h1><p>3 to do · 1 waiting for your tutor's check</p></div>
+<div class="actions"><span class="chip demo">Demo data</span></div>
+</div>
+<div class="grid g21">
+<div class="card">
+<div class="tabs"><a class="tab on" href="#">To do (3)</a><a class="tab" href="#">Submitted (1)</a><a class="tab" href="#">Checked (14)</a></div>
+<div class="list">
+<div class="li"><div class="grow"><div class="t">12 circle problems</div><div class="small muted">From Mohamad · SAT Math</div></div><span class="small" style="white-space: nowrap">Due Thu Nov 5</span><span class="chip amber">To do</span><a class="btn sm primary" href="#upload">Upload</a></div><div class="li"><div class="grow"><div class="t">Library lesson: Radians and arc length</div><div class="small muted">From Mohamad · exercises 1–10</div></div><span class="small" style="white-space: nowrap">Due Thu Nov 5</span><span class="chip blue">38% done</span><a class="btn sm" href="Student-Lesson.html">Open</a></div><div class="li"><div class="grow"><div class="t">Boundaries worksheet</div><div class="small muted">From Rana · SAT R&amp;W</div></div><span class="small" style="white-space: nowrap">Due Tue Nov 3</span><span class="chip amber">To do</span><a class="btn sm primary" href="#upload">Upload</a></div><div class="li"><div class="grow"><div class="t">15 words-in-context questions</div><div class="small muted">From Rana · Set C</div></div><span class="small" style="white-space: nowrap">Submitted Oct 31</span><span class="chip ">Waiting</span><a class="btn sm" href="#">View</a></div>
+</div>
+</div>
+<div style="display: flex; flex-direction: column; gap: 20px; min-width: 0">
+<div class="card" id="upload">
+<div class="cardhead"><h2>Upload: 12 circle problems</h2></div>
+<label for="up" style="border: 2px dashed #7DD3FC; border-radius: 14px; padding: 28px; text-align: center; background: #F0F9FF; display: flex; flex-direction: column; gap: 6px; align-items: center; cursor: pointer">
+<svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0369A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"></path></svg>
+<b>Take a photo or choose files</b><span class="small muted">JPG, PNG or PDF · up to 10 files</span></label>
+<input id="up" type="file" multiple style="display: none">
+<div class="list"><div class="li"><div class="avatar" style="border-radius: 8px">IMG</div><div class="grow"><div class="t">page-1.jpg</div><div class="small muted">2.1 MB · uploaded</div></div></div></div>
+<a class="btn primary" href="#">Submit to Mohamad</a>
+</div>
+<div class="card">
+<div class="cardhead"><h2>Latest feedback</h2></div>
+<div><b>Data evidence set · Rana</b> <span class="chip green">Complete</span></div>
+<div class="muted">Good job on the charts. Re-read question 7: the claim was about change over time.</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+<script src="assets/demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Practice test player · Amro Academy</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="assets/amro.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0369A1}a:hover{color:#075985}
+</style>
+</head>
+<body>
+<div class="amro">
+<div class="player">
+<div class="ptop">
+<div style="display: flex; flex-direction: column; gap: 2px; min-width: 220px">
+<div style="font-weight: 800">Section 2, Module 1: Math</div>
+<a href="#" class="small" style="font-weight: 600">Directions</a>
+</div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 2px">
+<div class="timer">21:43</div>
+<button class="btn sm" type="button" style="min-height: 28px">Hide</button>
+</div>
+<div class="ptools">
+<button class="tool" type="button" style="background: #E0F2FE; color: #075985"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="2" width="14" height="20" rx="2"></rect><path d="M8 6h8M8 11h2M12 11h0M16 11h0M8 15h2M12 15h0M16 15h0M8 19h8"></path></svg>Calculator</button>
+<button class="tool" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h16M6 16l6-12 6 12M8.5 11h7"></path></svg>Reference</button>
+<button class="tool" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L20 8l-4-4L4 16z"></path></svg>Annotate</button>
+<a class="tool" href="Student-Home.html" style="text-decoration: none"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h10"></path></svg>Save &amp; exit</a>
+</div>
+</div>
+<div class="small" style="padding: 6px 24px; background: #FEF3C7; color: #92400E; font-weight: 600">Practice mode · answers save automatically · Amro Full Test 4</div>
+<div class="pbody">
+<div class="pane" style="background: #F8FAFC; display: flex; flex-direction: column; gap: 12px">
+<div style="display: flex; justify-content: space-between; align-items: center"><span style="font-weight: 700">Graphing calculator</span><button class="btn sm" type="button" aria-label="Close calculator">Close</button></div>
+<div style="flex: 1; min-height: 360px; border: 1px solid #CBD5E1; border-radius: 12px; background: #fff; display: flex; flex-direction: column">
+<div style="border-bottom: 1px solid #E2E8F0; padding: 12px 14px; font-family: ui-monospace, monospace">y = 3x + 7</div>
+<div style="border-bottom: 1px solid #E2E8F0; padding: 12px 14px; font-family: ui-monospace, monospace">y = 22</div>
+<div style="flex: 1; position: relative; background: repeating-linear-gradient(0deg, transparent 0 39px, #EEF2F7 39px 40px), repeating-linear-gradient(90deg, transparent 0 39px, #EEF2F7 39px 40px)">
+<svg viewBox="0 0 400 260" style="position: absolute; inset: 0; width: 100%; height: 100%" aria-hidden="true"><line x1="0" y1="200" x2="400" y2="200" stroke="#94A3B8"></line><line x1="120" y1="0" x2="120" y2="260" stroke="#94A3B8"></line><line x1="40" y1="250" x2="300" y2="10" stroke="#0369A1" stroke-width="2.5"></line><line x1="0" y1="70" x2="400" y2="70" stroke="#D97706" stroke-width="2.5"></line><circle cx="235" cy="70" r="5" fill="#0F172A"></circle></svg>
+<span class="small" style="position: absolute; left: 61%; top: 12%; background: #fff; padding: 2px 6px; border-radius: 6px; border: 1px solid #E2E8F0; font-weight: 600">(5, 22)</span>
+</div>
+</div>
+<div class="small muted">Embedded graphing calculator (Desmos API) placeholder</div>
+</div>
+<div class="pane" style="display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 12px; background: #F1F5F9; border-radius: 10px; padding: 8px 12px">
+<div style="display: flex; gap: 10px; align-items: center"><span style="background: #0F172A; color: #fff; border-radius: 6px; padding: 2px 10px; font-weight: 800">7</span><button class="btn sm" type="button" style="border: 0; background: transparent"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#B45309" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 21V4h11l-2 4 2 4H5"></path></svg>Mark for review</button></div>
+<button class="btn sm" type="button" style="border: 0; background: transparent">Cross out answers</button>
+</div>
+<p style="margin: 0; font-size: 18px; line-height: 1.6">If 3<i>x</i> + 7 = 22, what is the value of 6<i>x</i> − 4?</p>
+<div style="display: flex; flex-direction: column; gap: 12px">
+<button class="choice" type="button"><span class="letter">A</span>20</button>
+<button class="choice sel" type="button" aria-pressed="true"><span class="letter">B</span>26</button>
+<button class="choice" type="button"><span class="letter">C</span>30</button>
+<button class="choice" type="button"><span class="letter">D</span>34</button>
+</div>
+</div>
+</div>
+<div class="pbottom">
+<div style="display: flex; flex-direction: column; gap: 2px"><span style="font-weight: 700">Lara Haddad</span><span class="small muted">Saved 2 seconds ago</span></div>
+<div style="display: flex; flex-direction: column; align-items: center; gap: 8px">
+<span style="font-weight: 700">Question 7 of 22</span>
+<div class="qnav">
+<span class="qn done">1</span><span class="qn done">2</span><span class="qn done">3</span><span class="qn flag">4</span><span class="qn done">5</span><span class="qn done">6</span><span class="qn done cur">7</span><span class="qn">8</span><span class="qn">9</span><span class="qn">10</span><span class="qn">11</span>
+<span class="qn">12</span><span class="qn">13</span><span class="qn">14</span><span class="qn">15</span><span class="qn">16</span><span class="qn">17</span><span class="qn">18</span><span class="qn">19</span><span class="qn">20</span><span class="qn">21</span><span class="qn">22</span>
+</div>
+</div>
+<div style="display: flex; gap: 10px"><button class="btn" type="button">Back</button><button class="btn primary" type="button">Next</button></div>
+</div>
+</div>
+</div>
+<script src="assets/demo.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Schedule · Amro Academy</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="assets/amro.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0369A1}a:hover{color:#075985}
+</style>
+</head>
+<body>
+<div class="amro">
+<div class="app">
+<aside class="side">
+<div class="brandmark"><img class="logo" src="assets/logo-icon.png" alt="Amro Academy logo"><div><div class="brandname">Amro Academy</div><div class="brandsub">Parent portal</div></div></div>
+<a class="nav" href="Parent-Home.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"></path></svg>Home &amp; progress</a>
+<a class="nav" href="Parent-Free-Time.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>Free time</a>
+<a class="nav active" href="Parent-Schedule.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Schedule</a>
+<a class="nav" href="Parent-Billing.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="3"></circle></svg>Billing</a>
+<a class="nav" href="Parent-Reports.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"></path><path d="M14 2v6h6M9 13h8M9 17h6"></path></svg>Monthly reports</a>
+<a class="nav" href="Parent-Messages.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>Messages</a>
+<div class="sidefoot"><div class="avatar">RH</div><div><div style="font-weight: 700">Rima Haddad</div><a href="index.html" style="color: #E0F2FE; font-size: 12px">Switch portal</a></div></div>
+</aside>
+<main class="main">
+<div class="topbar">
+<div class="title"><h1>Schedule</h1><p>Lara's sessions · reschedule or cancel at least 24 hours before</p></div>
+<div class="actions"><span class="chip demo">Demo data</span><a class="btn" href="Parent-Free-Time.html">Update free time</a></div>
+</div>
+<div class="grid g21">
+<div class="card">
+<div class="cardhead"><h2>Upcoming</h2></div>
+<div class="list">
+<div class="li"><div class="grow"><div class="t">Tue Nov 3 · 17:00 · SAT R&amp;W</div><div class="small muted">Rana Sleiman · In person, Hamra</div></div><span class="chip blue">Confirmed</span><a class="btn sm" href="#reschedule">Reschedule</a><a class="btn sm" href="#">Cancel</a></div><div class="li"><div class="grow"><div class="t">Thu Nov 5 · 15:00 · SAT Math</div><div class="small muted">Mohamad Amro · Online · Meet link</div></div><span class="chip blue">Confirmed</span><a class="btn sm" href="#reschedule">Reschedule</a><a class="btn sm" href="#">Cancel</a></div><div class="li"><div class="grow"><div class="t">Sat Nov 7 · 10:00 · Full practice test</div><div class="small muted">At home · student portal</div></div><span class="chip violet">Assigned</span></div><div class="li"><div class="grow"><div class="t">Tue Nov 10 · 17:00 · SAT R&amp;W</div><div class="small muted">Rana Sleiman · In person</div></div><span class="chip blue">Confirmed</span><a class="btn sm" href="#reschedule">Reschedule</a><a class="btn sm" href="#">Cancel</a></div>
+</div>
+<div class="cardhead" style="margin-top: 10px"><h2>Past sessions</h2></div>
+<div class="list">
+<div class="li"><div class="grow"><div class="t">Mon Nov 2 · SAT Math · 90 min</div><div class="small muted">Attended · homework done</div></div><span class="chip green">Summary</span><a class="btn sm" href="Parent-Home.html">Read</a></div><div class="li"><div class="grow"><div class="t">Fri Oct 30 · SAT R&amp;W · 60 min</div><div class="small muted">Attended · homework partial</div></div><span class="chip green">Summary</span><a class="btn sm" href="Parent-Home.html">Read</a></div><div class="li"><div class="grow"><div class="t">Wed Oct 28 · SAT Math · 90 min</div><div class="small muted">Attended</div></div><span class="chip green">Summary</span><a class="btn sm" href="Parent-Home.html">Read</a></div>
+</div>
+</div>
+<div class="card" id="reschedule">
+<div class="cardhead"><h2>Reschedule Tue Nov 3 · R&amp;W</h2></div>
+<div class="small muted">Open slots inside Lara's free time that Rana can take:</div>
+<div style="display: flex; flex-direction: column; gap: 8px">
+<button class="choice" type="button"><span class="letter">1</span>Wed Nov 4 · 17:00–18:00</button>
+<button class="choice sel" type="button" aria-pressed="true"><span class="letter">2</span>Thu Nov 5 · 16:30–17:30</button>
+<button class="choice" type="button"><span class="letter">3</span>Sat Nov 7 · 17:00–18:00</button>
+</div>
+<div class="field"><label for="rs">Reason (optional)</label><input id="rs" placeholder="School event"></div>
+<a class="btn primary" href="#">Confirm new time</a>
+<div class="small muted">You and Rana get the updated calendar invite right away.</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+<script src="assets/demo.js"></script>
+</body>
+</html>

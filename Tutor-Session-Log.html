@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Log a session · Amro Academy</title>
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="stylesheet" href="assets/amro.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#0369A1}a:hover{color:#075985}
+</style>
+</head>
+<body>
+<div class="amro">
+<div class="app">
+<aside class="side">
+<div class="brandmark"><img class="logo" src="assets/logo-icon.png" alt="Amro Academy logo"><div><div class="brandname">Amro Academy</div><div class="brandsub">Tutor portal</div></div></div>
+<a class="nav" href="Tutor-Calendar.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M3 10h18M8 3v4M16 3v4"></path></svg>Calendar &amp; booking</a>
+<a class="nav" href="Tutor-Students.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="4"></circle><path d="M2 21c0-4 3-6 7-6s7 2 7 6"></path><path d="M16 4a4 4 0 0 1 0 8"></path></svg>My students</a>
+<a class="nav active" href="Tutor-Session-Log.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L20 8l-4-4L4 16z"></path></svg>Sessions to log</a>
+<a class="nav" href="Tutor-Practice-Results.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2h9l5 5v15H6z"></path><path d="M14 2v6h6M9 13h8M9 17h6"></path></svg>Practice results</a>
+<a class="nav" href="Tutor-Earnings.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="3"></circle></svg>My earnings</a>
+<a class="nav" href="Tutor-Messages.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="M3 7l9 6 9-6"></path></svg>Messages</a>
+<a class="nav" href="Tutor-Availability.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>My availability</a>
+<div class="sidefoot"><div class="avatar">RS</div><div><div style="font-weight: 700">Rana Sleiman</div><a href="index.html" style="color: #BAE6FD; font-size: 12px">Switch portal</a></div></div>
+</aside>
+<main class="main">
+<a href="Tutor-Calendar.html" class="small" style="font-weight: 600">← Back to calendar</a>
+<div class="topbar">
+<div class="title"><h1>Log session · Karim Nassar</h1><p>Today, Mon Nov 2 · 16:00–17:00 · SAT Reading &amp; Writing · In person, Hamra center</p></div>
+<div class="actions"><span class="chip demo">Demo data</span><span class="chip amber">Editable for 48 hours after saving</span></div>
+</div>
+
+<div class="grid g21">
+<div style="display: flex; flex-direction: column; gap: 20px; min-width: 0">
+<div class="card">
+<div class="cardhead"><h2>Attendance</h2></div>
+<div style="display: flex; gap: 8px; flex-wrap: wrap"><button class="btn sm primary" type="button">Present</button><button class="btn sm" type="button">Late</button><button class="btn sm" type="button">Student no-show</button><button class="btn sm" type="button">Cancelled</button></div>
+<div class="grid g2" style="gap: 12px">
+<div class="field"><label for="dur">Actual duration</label><select id="dur"><option>60 minutes</option></select></div>
+<div class="field"><label for="subj">Subject</label><input id="subj" value="SAT Reading &amp; Writing"></div>
+</div>
+</div>
+
+<div class="card">
+<div class="cardhead"><h2>Skills covered</h2><span class="small muted">Feeds the student's mastery map</span></div>
+<div style="display: flex; gap: 8px; flex-wrap: wrap">
+<span class="chip blue">Craft &amp; Structure · Words in context ✓</span>
+<span class="chip blue">Craft &amp; Structure · Text structure and purpose ✓</span>
+<span class="chip">Information &amp; Ideas · Command of evidence</span>
+<span class="chip">Expression of Ideas · Transitions</span>
+<span class="chip">Standard English Conventions · Boundaries</span>
+<span class="chip">+ Add skill</span>
+</div>
+</div>
+
+<div class="card">
+<div class="field"><label for="sum">Session summary</label><textarea id="sum">Worked on words-in-context questions using the "predict, then match" method. Karim went from 6/10 to 9/10 on the warm-up set. Started text structure questions; he still confuses "purpose" with "main idea" on paired passages.</textarea></div>
+<div class="field"><label for="hw">Homework for next session</label><textarea id="hw" style="min-height: 72px">15 words-in-context questions (Set C) + Library lesson "Text structure and purpose", exercises 1–10.</textarea></div>
+<div class="grid g2" style="gap: 12px">
+<div class="field"><label for="due">Homework due</label><input id="due" value="Thu Nov 5 · next session"></div>
+<div class="field"><label for="prev">Last session's homework</label><select id="prev"><option>Done</option><option>Partial</option><option>Not done</option></select></div>
+</div>
+</div>
+
+<div class="card">
+<div class="field"><label for="pn">Note for parents</label><textarea id="pn" style="min-height: 72px">Great focus today. Please make sure Karim finishes the library lesson before Thursday.</textarea></div>
+<div class="field"><label for="an">Private note for admin <span class="muted" style="font-weight: 500">(never shown to parents or students)</span></label><textarea id="an" style="min-height: 64px">Karim asked to move Thursday sessions to 18:30 from December.</textarea></div>
+<div class="field"><span style="font-size: 13px; font-weight: 600">Cash collected in this session</span>
+<div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap"><input aria-label="Cash amount" value="$0.00" style="font: inherit; border: 1px solid #CBD5E1; border-radius: 10px; padding: 10px 12px; min-height: 44px; width: 160px"><span class="small muted">If a parent paid you in cash, it is subtracted from what the academy owes you.</span></div></div>
+<div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end"><a class="btn" href="#">Save draft</a><a class="btn primary" href="Tutor-Calendar.html">Save and send summary</a></div>
+</div>
+</div>
+
+<div style="display: flex; flex-direction: column; gap: 20px; min-width: 0">
+<div class="card">
+<div class="cardhead"><h2>Karim at a glance</h2></div>
+<div class="grid g2" style="gap: 12px">
+<div><div class="label">Target</div><div class="big" style="font-size: 22px">1400</div></div>
+<div><div class="label">Latest</div><div class="big" style="font-size: 22px">1290</div></div>
+<div><div class="label">R&amp;W section</div><div class="big" style="font-size: 22px">660</div></div>
+<div><div class="label">SAT date</div><div class="big" style="font-size: 22px">Dec</div></div>
+</div>
+<div><div style="display: flex; justify-content: space-between" class="small"><span>Craft &amp; Structure</span><span>61%</span></div><div class="bar amber"><span style="width: 61%"></span></div></div>
+<div><div style="display: flex; justify-content: space-between" class="small"><span>Homework completion</span><span>83%</span></div><div class="bar green"><span style="width: 83%"></span></div></div>
+</div>
+<div class="card">
+<div class="cardhead"><h2>Last session · Oct 29</h2></div>
+<div class="muted">Command of evidence with charts. Strong on reading graphs, weak on matching claims to quotations.</div>
+<div class="small"><b>Homework set:</b> 10 data-evidence questions</div>
+</div>
+<div class="card">
+<div class="cardhead"><h2>What the parent receives</h2></div>
+<div style="border: 1px solid #E2E8F0; border-radius: 12px; padding: 14px; display: flex; flex-direction: column; gap: 8px; background: #F8FAFC">
+<div class="small muted">Email · Amro Academy</div>
+<div style="font-weight: 700">Karim's session summary · Mon Nov 2</div>
+<div class="small">Skills: Words in context, Text structure and purpose</div>
+<div class="small">Homework due Thu Nov 5 · Note from Rana included</div>
+<span class="btn sm" style="align-self: flex-start">View in portal</span>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+<script src="assets/demo.js"></script>
+</body>
+</html>
